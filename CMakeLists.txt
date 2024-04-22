@@ -5,12 +5,12 @@ project(IntensitySegmenter)
 if( IntensitySegmenter_BUILD_SLICER_EXTENSION )
   #-----------------------------------------------------------------------------
   # Extension meta-information
-  set(EXTENSION_HOMEPAGE "http://www.nitrc.org/projects/dentaltools")
+  set(EXTENSION_HOMEPAGE "https://www.nitrc.org/projects/dentaltools/")
   set(EXTENSION_CATEGORY "Segmentation")
-  set(EXTENSION_CONTRIBUTORS "Francois Budin (UNC), Beatriz Paniagua (UNC), Pengdong Xiao (UNC)")
-  set(EXTENSION_DESCRIPTION "This is an example of a simple extension")
-  set(EXTENSION_ICONURL "http://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon.png")
-  set(EXTENSION_SCREENSHOTURLS "http://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png")
+  set(EXTENSION_CONTRIBUTORS "Pengdong Xiao (Department of Orthodontics, UNC), Beatriz Paniagua (Department of Orthodontics, UNC), Francois Budin (NIRAL, UNC)")
+  set(EXTENSION_DESCRIPTION "IntensitySegmenter is a simple tool that segments an image according to intensity value. It is mainly used to segment CT scans using the Hounsfield scale but the ranges of intensities and their corresponding labels can be specified in an input text file.")
+  set(EXTENSION_ICONURL "https://wiki.slicer.org/slicerWiki/images/f/f6/IntensitySegmenterIcon.png")
+  set(EXTENSION_SCREENSHOTURLS "https://wiki.slicer.org/slicerWiki/images/7/7c/IntensitySegmenter-OutputScreenshot.png")
   #-----------------------------------------------------------------------------
   # Extension dependencies
   find_package( Slicer REQUIRED )
